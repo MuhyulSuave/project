@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/city.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+}
+
+nav h3 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff4500;
+}
+
+nav form input[type="text"] {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+nav img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  text-align: left;
+}
+nav form button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff4500;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+nav form button:hover {
+  background-color: #cc3700;
+}
+
+.Home {
+  padding: 50px;
+  text-align: center;
+  color: blue;
+}
+
+.Home h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #f5f5f5;
+}
+
+.social-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #04b2f7;
+  font-size: 24px;
+}
+
+.About {
+  color: #f5f5f5;
+  padding: 50px;
+}
+
+.About h2 {
+  color: gold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.About p {
+  color:chartreuse;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  color: yellowgreen;
+  justify-content: space-around;
+}
+
+.member {
+  text-align: center;
+  color: yellow;
+}
+
+.member img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.member h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.member p {
+  color: #666;
+}
+
+.Contact {
+  padding: 50px;
+  background-color: #fff;
+}
+
+.Contact h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.Contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.Contact form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.Contact form input[type="text"],
+.Contact form input[type="email"],
+.Contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Contact form textarea {
+  height: 150px;
+}
+
+.Contact form input[type="submit"] {
+  background-color: #ff4500;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.Contact form input[type="submit"]:hover {
+  background-color: #cc3700;
+}
